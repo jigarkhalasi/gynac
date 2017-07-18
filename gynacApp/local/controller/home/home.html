@@ -1,0 +1,269 @@
+<section class="home">
+    <div class="slider-relative">
+        <nav class="navbar navbar-default nav-header">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse nav-list-main" id="bs-example-navbar-collapse-1">
+                    <div class="col-sm-12 col-md-12">
+                        <ul class="nav navbar-nav nav-list-left">
+                            <li class="li-1 state-active"><a class="a-1" href="#/home">Home <span class="sr-only">(current)</span></a></li>
+                            <li class="li-1"><a class="a-1" href="#/about">About GynAc</a></li>
+                            <li class="li-1"><a class="a-1" href="#/lecture">Course</a></li>
+                            <li class="li-1"><a class="a-1" href="#/faculty">Faculty</a></li>
+                            <!--<li class="dropdown li-1"><a class="a-1" href="javascript:;">My Page</a>
+                                <ul class="dropdown-menu">
+                                    <li class="li-2"><a class="a-2" href="#/myProfile">My Profile</a></li>
+                                    <li class="li-2"><a class="a-2" href="#/training">Training Detail</a></li>
+                                </ul>
+                            </li>-->
+                            <li class="li-1"><a class="a-1" href="#/contact">Contact Us</a></li>
+                            <li class="li-1">
+                                <a class="a-1" style="visibility: hidden;" href="javascript:;"></a>
+                            </li>
+                            <li class="li-1"><a class="a-1" href="#/signIn" ng-hide="authenticatedUser.UserInfo.First_Name">Sign-in / Register</a></li>
+                            <li class="dropdown li-1"><a class="a-1" href="javascript:;" ng-show="authenticatedUser.UserInfo.First_Name">{{authenticatedUser.UserInfo.First_Name}}</a>
+                                <ul class="dropdown-menu">
+                                    <li class="li-2"><a class="a-2" href="#/myProfile">My Profile</a></li>
+                                    <li class="li-2"><a class="a-2" href="#/training">Training Detail</a></li>
+                                    <li class="li-2" ng-click="signOut()"><a class="a-2" href="javascript:;">Sign-out</a></li>
+                                </ul>
+                            </li>
+                            <li class="li-2"><a href="https://www.facebook.com/Gynecology-Academy-1776711995945554Gynecology-Academy-1776711995945554" class="btn btn-social-icon btn-facebook"> <i class="fa fa-facebook"></i></a></li>
+                            <li class="li-2"><a class="btn btn-social-icon btn-google-plus"><i class="fa fa-google-plus"></i></a></li>
+                            <li class="li-2"><a class="btn btn-social-icon btn-instagram"><i class="fa fa-instagram"></i></a></li>
+                            <li class="li-2"><a class="btn btn-social-icon btn-linkedin"><i class="fa fa-linkedin"></i></a></li>
+                            <li class="li-2"><a class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a></li>
+                            <!--<li class="li-1"><a class="a-1" href="#/signUp">Sign Up</a></li>-->
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+        <div class="container">
+            <div class="row page-header banner-page">
+                <div class="col-sm-12 col-md-3 sm-center"><img src="gynacApp/local/img/logo.png" alt="logo" height="200" /> </div>
+                <div class="col-sm-12 col-md-7 sm-center">
+                    <h2>ULTRASOUND IN GYNECOLOGY</h2>
+                    <h2>4 - MONTH CERTIFICATION COURSE</h2> </div>
+                <div class="col-sm-12 col-md-2 sm-center">
+                    <div class='btn-toolbar pull-right'>
+                        <div class='btn-group'> <a href="#" class="btn btn-primary btn-custom"><span class="glyphicon glyphicon-check"></span> APPLY NOW</a> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!--<div class='page-header banner-page'>
+                <div class='btn-toolbar pull-right'>
+                    <div class='btn-group'>
+                        <button type='button' class='btn btn-primary'>Button Text</button>
+                    </div>
+                </div>
+                <img class="pull-left" src="gynacApp/local/img/logo.png" alt="logo" height="200" />
+                <h2 class="pull-left">ULTRASOUND IN GYNECOLOGY</h2>
+                <h2 class="pull-left">4 - MONTH CERTIFICATION COURSE</h2></div>-->
+            <!--<div id="carousel-example-generic" class="carousel slide " data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            </ol>
+
+            <div class="row" style="margin:0px">
+				<div class="col-md-12">
+					<div class="carousel slide" id="theCarousel" data-interval="3000">                    
+						<div class="row">
+							<div class="carousel-inner">
+								<div class="item active"> <img src="gynacApp/local/img/s1.png" alt="1" /> </div>
+								<div class="item"> <img src="gynacApp/local/img/s2.png" alt="2" /> </div>
+								<div class="item "> <img src="gynacApp/local/img/s3.png" alt="3" /> </div>
+								<div class="item"> <img src="gynacApp/local/img/s4.png" alt="4" /> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+            <a class="left carousel-control" ng-click="slide('prev')"  role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" ng-click="slide('next')" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+        </div>-->
+        <div class="container main-body" id="mainBody" ng-init="slide('next')" ng-show="currentPage == 'home'">
+            <div class="col-md-3 main-body-left">
+                <div class="col-md-12 well left-inner top" id="b2" style="padding-bottom: 10px;">
+                    <h4>TESTIMONIALS</h4>
+                    <div class="col-md-12 describe padding-top10">
+                        <p style="padding-right: 15px;padding-left: 15px;">
+                            {{previewTestimonial.text}}
+                                <br>
+                                <span ng-bind-html="renderHtml(previewTestimonial.uaseName)"></span>
+                                <br>
+                                <button class="btn btn-primary magenta-backgound" ng-click="viewAllTestimonials('testimonial')">View All</button>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-12 well left-inner" id="b3" style="padding-bottom: 10px;    min-height: 234px;">
+                    <h4>Preview of lectures</h4>
+                    <div class="col-md-12 describe padding-top10">
+                        <!--<div class="video-list thumbnail sub-menu" ng-repeat="list in speakerVideoList" ng-if="list.isPreview">
+								<div class="col-md-3 padding0">
+									<img ng-src="{{list.iconSrc}}">
+								</div>
+								<div class="col-md-9">
+									<p ng-bind="list.title"></p>
+								</div>
+								<div class="clearfix"></div>   
+                                <div class="sub-item" data-toggle="modal" data-target="#previewModal" ng-click="openPreviewVideo( list.previewSrc)">Preview</div>
+                            </div>-->
+                        <div class="video-list thumbnail sub-menu">
+                            <div class="col-md-3 padding0"> <img ng-src="{{previewLec.iconSrc}}"> </div>
+                            <div class="col-md-9">
+                                <p ng-bind="previewLec.title"></p>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="sub-item" data-toggle="modal" data-target="#previewModal" ng-click="openPreviewVideo( previewLec.previewSrc)">Preview</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 main-body-center">
+                <div class="col-md-12 well center-inner">
+                    <h4>Welcome to GynAc</h4>
+                    <div class="col-md-12">
+                        <br>
+                        <p> We are glad to launch Gynecology Academy – an online learning portal for skill enhancement and training in the field of ultrasound imaging in Gynecology. </p>
+                        <br>
+                        <p> Currently we have three members on the faculty who specialize in this field and more will be joining us soon. In the coming weeks and months many more lectures will be added, which will provide a comprehensive coverage of Gynecological Ultrasound. </p>
+                        <br>
+                        <p> The lectures have abundant illustrations of ultrasound features in various pathologies. They include not only two-dimensional grey scale but Doppler and three-dimensional ultrasound as well. These lectures also incorporate video clips that capture the interactive nature of transvaginal scanning, which is unique to ultrasound imaging. </p>
+                        <br>
+                        <p> Since this is a new initiative that we have just launched, we would appreciate any feedback that could help us further improve the learning experience. Please email us at feedback@gynac.org </p>
+                        <br>
+                        <p style="padding-bottom: 10px;">
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br> </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 main-body-right">
+                <div class="col-md-12 well right-inner" id="b1">
+                    <h4>New Lectures </h4>
+                    <div class="col-md-12 describe">
+                        <p>
+                            <ul style="padding-right: 15px;">
+                                <li>Torsion: A Diagnostic Dilemma Made Easy</li>
+                                <li>Cycle Assessment in Infertility and ART</li>
+                                <li>Spectrum of Endometriosis: Beyond the “Ground Glass” Appearance</li>
+                                <li>Tubal Assessment</li>
+                            </ul>
+                        </p>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-12 well right-inner" id="b4" style="min-height: 234px;">
+                    <h4>Suggested References:</h4>
+                    <div class="col-md-12 describe padding-top10">
+                        <a href="http://www.springer.com/in/book/9789811027130" target="_blank">
+                            <p style="padding: 0px 10px 10px 10px;"><b>Ultrasound in Gynecology:</b> An Atlas and Guide</p> <img src="gynacApp/local/img/book1.png" style=" width: 82px;
+    margin-left: 10px;"> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container main-body" ng-show="currentPage == 'testimonial'">
+            <div class="row">
+                <!--<div class="col-md-12"> <i class="fa fa-arrow-left back-btn" ng-click="viewAllTestimonials('home')" style="font-size:43px; padding-bottom: 15px;" aria-hidden="true"></i> </div>-->
+                <!--<div class="col-md-12">
+                    <h1 style="text-align: center;">PARTICIPANT FEEDBACK</h1>
+                    <br>
+                    <br>
+                    <br>
+                    <br> </div>-->
+                <div class="col-md-12" ng-repeat="list in testimonial">
+                    <div>{{list.text}}</div>
+                    <br>
+                    <div ng-bind-html="renderHtml(list.uaseName)"></div>
+                    <br>
+                    <br>
+                    <br> </div>
+            </div>
+        </div>
+        <div class="modal fade" id="previewModal" role="dialog" data-backdrop="static">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" ng-click="pusePreviewVideo()" data-dismiss="modal">&times;</button>
+                        <h2 class="modal-title text-center magenta">Preview</h2> </div>
+                    <div class="modal-body" style="max-height: none;">
+                        <div class="video-preview-container" ng-show="previewSrc">
+                            <video width="100%" id="previewVideo">
+                                <source src="" type="video/mp4"> Your browser does not support the video tag. </video>
+                        </div>
+                        <h4 ng-hide="previewSrc" class="text-center">Preview not available!!</h4> </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" ng-click="pusePreviewVideo()" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Sign up found modal-->
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" id="triggerSucsessfullyVerifyEmailModal" data-toggle="modal" data-target="#SucsessfullyVerifyEmailModal" style="display:none">Open Modal</button>
+        <!-- Modal -->
+        <div id="SucsessfullyVerifyEmailModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header text-center">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h3 class="modal-title">Email Verification</h3> </div>
+                    <div class="modal-body">
+                        <p class="text-center">Sucsessfully email verified, Now you can login. </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal" ng-click="goToHome()">ok</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Sign up found modal-->
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" id="triggerEmailNotFound" data-toggle="modal" data-target="#EmailNotFound" style="display:none">Open Modal</button>
+        <!-- Modal -->
+        <div id="EmailNotFound" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header text-center">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h3 class="modal-title">Email Verification</h3> </div>
+                    <div class="modal-body">
+                        <p class="text-center" style="color:red">Email Id not Found!!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal" ng-click="goToHome()">ok</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
